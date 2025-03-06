@@ -12,8 +12,17 @@ body, nav{
     background-color: #232B2B;
 }
 
-#landing{
+#main{
+    overflow-x:auto;
+    white-space: nowrap;
+    /*overflow: hidden clear comment later*/;
+}
+
+
+#landing, #l2, #l3, #l4{
    height: 80vh;
+   min-width: 100vw;
+   margin-right: 500px;
 }
 
 #logo{
@@ -22,6 +31,15 @@ body, nav{
 }
 
 .myName{
-    font-size: 8em;
     font-weight: bold;
+}
+
+h1{
+    font-size: 6vw;
+}
+h5{
+    font-size: 2vw;
+}
+p{
+    font-size: 1vw;
 }
