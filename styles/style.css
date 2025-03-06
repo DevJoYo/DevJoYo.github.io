@@ -8,15 +8,20 @@
     color: white;
 }
 
-body{
-    background-color: #0f0f0f;
+body, nav{
+    background-color: #232B2B;
 }
+
 
 
 #landing{
     height: 80vh;
 }
 
+#logo{
+    width: 200px;
+    height: 8vh;
+}
 
 .myName{
     font-size: 8em;
