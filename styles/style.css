@@ -20,25 +20,87 @@ body, nav{
 }
 
 
-#landing, #l2, #l3, #l4{
+#landing, #sum, #eduExp, #tSkill, #sSkill, #proj, #cont{
    height: 80vh;
    min-width: 100vw;
-   margin-right: 250;
+   /*margin-right: 20px;*/
+   white-space: wrap;
 }
-
+/*
 #l2{
     white-space: wrap;
 }
 
+#exp, #skills{
+    white-space: wrap;
+}
+*/
+
+#sum img{
+    max-height: 35vh;
+}
+#eduExp, #tSkill, #sSkill{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#tSkill ul{
+    display: inline-block;
+    padding-left: 5vw;
+    
+}
+#tSkill li{
+    list-style-type: '➤';
+    padding-left: 10px;
+}
+
 #logo{
-    width: 200px;
     height: 8vh;
 }
 
+#proBegin{
+    margin: auto;
+    height: 80vh;
+    width: 10vw;
+}
+
+#proBegin h2{
+    font-size: 7vh;
+    writing-mode: vertical-rl;
+}
+/*special classes*/
 .myName{
     font-weight: bold;
 }
 
+.lhSpec p{
+    line-height: 0.5;
+}
+
+.card{
+    width: 50vw;
+    height: 30vh;
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-text{
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*header rules*/
 h1{
     font-size: 6vw;
 }
@@ -56,4 +118,29 @@ h5{
 }
 p{
     font-size: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 10vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 5.5vw;
+    }
+    h4{
+        font-size: 5vw;
+    }
+    h5{
+        font-size: 4vw;
+    }
+    p{
+        font-size: 3vw;
+    }
+
+    .lhSpec p{
+        line-height: 1;
+    }
 }
