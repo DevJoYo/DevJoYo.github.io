@@ -16,33 +16,33 @@ body, nav{
 #main{
     overflow-x:auto;
     white-space: nowrap;
-    /*overflow: hidden clear comment later*/;
+    overflow: hidden;
 }
 
 
-#landing, #sum, #eduExp, #tSkill, #sSkill, #proj, #cont{
+#landing, #sum, #eduExp, #tSkill, #sSkill, #cont{
    height: 80vh;
    min-width: 100vw;
+   padding-right: 10vw;
+   padding-left: 10vw;
    /*margin-right: 20px;*/
    white-space: wrap;
-}
-/*
-#l2{
-    white-space: wrap;
+
 }
 
-#exp, #skills{
+#proj{
+    height: 80vh;
+    min-width: 100vw;
+    padding-right: 10vw;
+    /*margin-right: 20px;*/
     white-space: wrap;
+ 
 }
-*/
 
 #sum img{
     max-height: 35vh;
 }
-#eduExp, #tSkill, #sSkill{
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
+
 
 #tSkill ul{
     display: inline-block;
@@ -140,7 +140,12 @@ p{
         font-size: 3vw;
     }
 
+    #sum img{
+        max-height: 30vw;
+    }
+
     .lhSpec p{
         line-height: 1;
     }
 }
+
