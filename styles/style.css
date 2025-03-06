@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: white;
+    list-style-type: none;
 }
 
 body, nav{
@@ -41,8 +42,17 @@ body, nav{
 h1{
     font-size: 6vw;
 }
-h5{
+h2{
+    font-size: 4vw;
+}
+h3{
+    font-size: 3vw;
+}
+h4{
     font-size: 2vw;
+}
+h5{
+    font-size: 1.5vw;
 }
 p{
     font-size: 1vw;
