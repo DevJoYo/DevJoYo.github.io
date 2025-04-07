@@ -52,7 +52,6 @@
                             Go ahead and scroll to learn more about me.
                         </h5>
             
-                        <p class="pt-5 text-warning">*This website is mostly for assignment purposes and contains unfinished projects.*</p>
                     </div>
                 </div>
 
@@ -156,89 +155,156 @@
 
                 <div id="proBegin" class="d-flex justify-content-center align-items-center">
                     <h2>PROJECTS</h2>
+                    <p class="text-white my-auto">
+                        Click on a project to find out more
+                    </p>
                 </div>
 
                 <div id="proj">
-                    <div class="card border border-5 border-light" data-bs-toggle="modal" data-bs-target="#modalBJ">
-                        <img src="./assets/proj1.png" class="card-img" alt="An image showcasing my project 'Almost BlackJack'">
-                        <div class="card-img-overlay">
-                            <p class="card-text border border-5 border-light rounded">Simple Blackjack JavaFX application</p>
-                          </div>
+                    <div class="col">
+                        <div class="card border border-5 border-light" data-bs-toggle="modal" data-bs-target="#modalBJ">
+                            <img src="./assets/proj1.png" class="card-img img-fluid" alt="An image showcasing my project 'Almost BlackJack'">
+                            <div class="card-img-overlay">
+                                <p class="card-text border border-5 border-light rounded">Simple Blackjack JavaFX application</p>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="modalBJ" tabindex="-1" aria-labelledby="cardModalLabelBJ" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="cardModalLabelBJ">Project: Almost BlackJack!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>
+                                        This simple JavaFx program was the result of a canceled assignment in my second semester. Due to it being a summer semester the proffesors were swapped six weeks in,
+                                        however I had already started making this and was enjoying the challenge, so I decided to finish it in my free time. 
+                                    </p>
+
+                                    <p>
+                                        This program allows you to simulate playing blackjack against a dealer. The cards are dealt at random and the cards that are left in the deck are tracked in a side panel
+                                        (it counts cards for you, so you should win...). The program also keeps track of how many hands you have won so you can try for a high score. Every time the dealer wins you lose 
+                                        a life, and the game ends when you run out of lives.
+                                    </p>
+
+                                    <p class="fw-bold">Technologies used:</p>
+                                    <p>Java, JavaFX</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <p>See the code</p>
+                                        <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal" onclick="location.href='https://github.com/DevJoYo/AlmostBlackJack';">GitHub</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card border border-5 border-light"  data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img src="./assets/cs.png" class="card-img" alt="A sign stating 'Coming Soon!'">
+                            <div class="card-body">
+                                <p class="card-text border border-5 border-light rounded">Coming soon...</p>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="cardModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="cardModalLabel2">Coming Soon!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <p>
+                                    Reserved space for my next project!
+                                </p>
+
+                                <p class="fw-bold">
+                                    Technologies used:
+                                </p>
+                                <p>
+
+                                </p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <p>See the code</p>
+                                <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal">Code not available...</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="modal fade" id="modalBJ" tabindex="-1" aria-labelledby="cardModalLabelBJ" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-xl">
-                          <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="cardModalLabelBJ">Project: Almost BlackJack!</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="col">
+                        <div class="card border border-5 border-light"  data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img src="./assets/cs.png" class="card-img" alt="A sign stating 'Coming Soon!'">
+                            <div class="card-body">
+                                <p class="card-text border border-5 border-light rounded">Coming soon...</p>
                             </div>
-                            <div class="modal-body">
-                              <p>
-                                This simple JavaFx program was the result of a canceled assignment in my second semester. Due to it being a summer semester the proffesors were swapped six weeks in,
-                                however I had already started making this and was enjoying the challenge, so I decided to finish it in my free time. 
-                              </p>
-
-                              <p>
-                                This program allows you to simulate playing blackjack against a dealer. The cards are dealt at random and the cards that are left in the deck are tracked in a side panel
-                                (it counts cards for you, so you should win...). The program also keeps track of how many hands you have won so you can try for a high score. Every time the dealer wins you lose 
-                                a life, and the game ends when you run out of lives.
-                              </p>
-
-                              <p class="fw-bold">Technologies used:</p>
-                              <p>Java, JavaFX</p>
-                            </div>
-                            <div class="modal-footer">
-                                <p>See the code</p>
-                                <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal" onclick="location.href='https://github.com/DevJoYo/AlmostBlackJack';">GitHub</button>
-                            </div>
-                          </div>
                         </div>
-                      </div>
 
-                    <div class="card border border-5 border-light"  data-bs-toggle="modal" data-bs-target="#modalVT">
-                        <img src="./assets/proj2.png" class="card-img" alt="An image of a veterinary technician working on a cat">
-                        <div class="card-body">
-                            <p class="card-text border border-5 border-light rounded">ASP.NET application designed to help veterinary technicians do complex conversions for veterinary medicine</p>
-                          </div>
-                    </div>
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="cardModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="cardModalLabel2">Coming Soon!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <p>
+                                    Reserved space for my next project!
+                                </p>
 
-                    <div class="modal fade" id="modalVT" tabindex="-1" aria-labelledby="cardModalLabelVT" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-xl">
-                          <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="cardModalLabelVT">Project: VetTech Calc (Pretend Project)</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <p class="fw-bold">
+                                    Technologies used:
+                                </p>
+                                <p>
+
+                                </p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <p>See the code</p>
+                                <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal">Code not available...</button>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                              <p>
-                                This is a pretend project that I have not yet worked on but I have been thinking of using the skills I've learned at mohawk to make this application for my partner
-                                to use at her job.
-                              </p>
-
-                              <p>
-                                This application would allow a user to select the type of animal they were working with, enter information about the animal (weight, breed, etc) and select which 
-                                drug they're administering, and provide the correct dosage. This would be incredible helpful as veterinary technicians often have to do complex conversions between 
-                                volume and weight as each drug has strict dosage requirements. I believe a web application would be the most benifical way to ship this application, as the technicians
-                                could load it on their phones or tablets as long as they had an internet connection.
-                              </p>
-
-                              <p class="fw-bold">Technologies used:</p>
-                              <p>C#, ASP.NET</p>
                             </div>
-
-                            <div class="modal-footer">
-                                <p>See the code</p>
-                              <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal">Code not available...</button>
-                            </div>
-                          </div>
                         </div>
-                      </div>
 
-                      <div class="mt-3 text-center border rounded border-5 border-light bg-light">
-                        <p class="text-dark my-auto">
-                            Click on a project to find out more
-                        </p>
+                        <div class="card border border-5 border-light"  data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img src="./assets/cs.png" class="card-img" alt="A sign stating 'Coming Soon!'">
+                            <div class="card-body">
+                                <p class="card-text border border-5 border-light rounded">Coming soon...</p>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="cardModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content bg-secondary border rounded border-5 border-light p-2">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="cardModalLabel2">Coming Soon!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <p>
+                                    Reserved space for my next project!
+                                </p>
+
+                                <p class="fw-bold">
+                                    Technologies used:
+                                </p>
+                                <p>
+
+                                </p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <p>See the code</p>
+                                <button type="button" class="btn btn-dark btn-rounded" data-bs-dismiss="modal">Code not available...</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

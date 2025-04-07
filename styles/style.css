@@ -32,6 +32,7 @@ body, nav{
     min-width: 100vw;
     padding-right: 10vw;
     white-space: wrap;
+    display: flex;
 }
 
 #sum img{
@@ -64,6 +65,10 @@ body, nav{
     writing-mode: vertical-rl;
 }
 
+#proBegin p{
+    font-size: 3vh;
+    writing-mode: vertical-rl;
+}
 /*classes*/
 .myName{
     font-weight: bold;
